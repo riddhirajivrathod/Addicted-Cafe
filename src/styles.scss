@@ -1,0 +1,200 @@
+*{
+    outline: none !important;
+}
+
+body{
+    // background-image: url('');
+    /* The image used */
+    background-image: url("/assets/Images/coffee-doodles1.png");
+      
+    /* Set a specific height */
+    max-height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.btn-position{
+    line-height: 32px;
+    font-size: 27px;
+    // background: #f8f4ef;
+    background-color: rgba(232, 215, 197, 0.9);
+    box-shadow: 0 1px 2px 0 #c8c8c3;
+    border: solid 2px #bf9161;
+    color: #bf9161;
+    cursor: pointer;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.overlay1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    // background: rgba(0, 0, 0, 0.5);
+}
+
+#mainnav .sidenav{
+    position: fixed;
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease;
+    width: 0px;
+    z-index: 9999;
+}
+
+#mainnav .show{
+    width: 300px;
+}
+
+#mainnav .collaping{
+    width: 0px;
+}
+
+
+.bg-light{
+    box-shadow: #000 0 0 5px 0;
+    background: #f4f4f4;
+}
+
+.down{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 15px solid #f4f4f4;
+    position: absolute;
+    bottom: -14px;
+    left: 210px;
+    z-index: 9999;
+}
+
+.icon1 {
+    width: 20px;
+    background-image: url('/assets/Images/menu.svg');
+}
+
+.icon2 {
+    width: 20px;
+    background-image: url('/assets/Images/back.svg');
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.navbar-toggler {
+   border: 0px;
+}
+
+.bg-dark{
+    background: #bf9161 !important;
+}
+
+.form-check-input:checked {
+    background-color: #bf9161;
+    border-color: #bf9161;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.btn-light{
+    background-color: #fff;
+}
+
+.btn-check:active+.btn-light, .btn-check:checked+.btn-light, .btn-light.active, .btn-light.dropdown-toggle.show, .btn-light:active {
+    color: #bf9161;
+    font-weight: 500;
+    background-color: #fff;
+    border-color: #bf9161;
+}
+
+.outletWrapper {
+    font-size: 12px;
+    cursor: pointer;
+    /* margin: 10px 0 0 30px; */
+    padding: 5px;
+    border-radius: 3px;
+    /* position: relative; */
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.outletWrapper .tagLine {
+    text-transform: uppercase;
+    font-size: 9px;
+    margin: 0px 0 3px 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(191, 145, 97,0.3); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #3b1712; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3b1712; 
+  }
+/* Scroll end */
+
+.bg-slider{
+    height: 400px;
+    background-image: linear-gradient(to top, #3b1712 10%, #bf9161 90%);
+    // background-color: #3b1712;
+}
+
+.rounded-pills {
+    border-radius: 26px;
+}
+
+.bg-light-brown {
+    // background-color: #f8f4ef;
+    background-color: rgba(232, 215, 197,0.9);
+}
+
+.bg-dark-brown{
+    background-color: #3b1712;
+}
+
+.brown-shadow{
+    box-shadow: 2px 2px 4px #bf9161;
+}
+
+.gray-shadow{
+    box-shadow: 2px 2px 4px grey;
+}
+
+.card{
+    border: 0px !important;
+}

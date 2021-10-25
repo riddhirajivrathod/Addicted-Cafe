@@ -1,0 +1,21 @@
+<section>
+    <div class="container">
+        <div class="row align-items-center justify-content-center" style="min-height: 80vh;">
+            <div class="col-auto">
+                <div class="card" style="background-color: #f4f4f4;">
+                    <div class="card-body text-center px-5 py-4">
+                        <h4 class="card-title text-center mb-4">VERIFICATION</h4>
+                        <p><small class="card-text">An OTP was send to 9152991518</small></p>
+                        <form>
+                            <div class="mb-3">
+                                <ngx-otp-input [config]="otpInputConfig"></ngx-otp-input>
+                              </div>
+                            <button type="submit" style="background:#bf9161;color: #fff;" class="btn w-100"><b>Login</b></button>
+                          </form>
+                          <p class="mb-0 text-end">Didn't receive? <a href="#" style="color:#bf9161 ;">Resend</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
